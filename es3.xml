@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<!--
+Studente: Alice Vitali
+ -->
+
+<!--VERSIONE SBAGLIATA
+<docu>
+    <element>
+
+    </element>
+    <nowell>
+        <over>
+    </nowell>
+        </over>
+</docu>
+-->
+
+<!-- Errore da gitbash: 
+
+[Fatal Error] es3.xml:9:7: The element type "over" must be terminated by the matching end-tag "</over>".
+
+-->
+
+<!--VERSIONE CORRETTA con aggiunta figlio ad element e fratello a over-->
+<docu>
+    <element>
+        <child>
+        </child>
+    </element>
+    <nowell>
+        <over>
+        </over>
+        <sibling>
+        </sibling>
+    </nowell>
+</docu>
+
+
+<!--CORREGGERE ESERCIZIO SBAGLIATO "DOC NO WELL"-->

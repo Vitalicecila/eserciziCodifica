@@ -1,0 +1,25 @@
+
+<sourceDoc>
+	<surface>
+		<graphic url='belliniImageBased.png' width='513px' height='332px' />
+		<zone xml:id="verde" ulx="9" uly="7" lrx="247" lry="51">
+			<line></line>
+		</zone>
+
+		<zone xml:id="azzurro" ulx="9" uly="57" lrx="248" lry="192">
+			<line></line>
+		</zone>
+		<zone xml:id="blu" ulx="11" uly="197" lrx="246" lry="329" >
+			<line></line>
+		</zone>
+		<zone xml:id="rosso" ulx="251" uly="6" lrx="499" lry="41">
+			<line></line>
+		</zone>
+		<zone xml:id="arancio" ulx="272" uly="46" lrx="494" lry="322">
+			<line></line>
+		</zone>
+		<zone xml:id="rosa" ulx="383" uly="301" lrx="494" lry="329">
+			<line></line>
+		</zone>
+	</surface>
+</sourceDoc>

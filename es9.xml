@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Studente: Alice Vitali
+-->
+<!DOCTYPE TEI SYSTEM "tei_all.dtd">
+<TEI xmlns="http://www.teic.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Articolo del Corriere della Sera su ELon Musk e i Bitcoin</title>
+                <respStmt>
+                    <resp>Conversione TEI P5 a cura di</resp>
+                    <name>Alice Vitali</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Università di Pisa</publisher>
+                <date>2021-06-09</date>
+                <availability status="restricted">
+                    <p>Riproduzione riservata</p>
+                </availability> 
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title type="main">Elon Musk «causa» il crollo dei Bitcoin e perde il 24% del patrimonio: ora è il terzo più ricco al mondo</title>
+                    <title type="sub">Il rapporto tra Elon Musk e le criptovalute è molto tumultuoso e l’ultima tempesta gli è costata casa. Nuovi investimenti e un satellite per la Luna però, potrebbero farlo tornare in vetta</title>
+                    <author>Riccardo Lichene</author>
+                    <publisher>Corriere della Sera</publisher>
+                    <date>2020-05-18</date>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <p>
+                <persName xml:id="EM"><forename>Elon </forename> <surname> Musk </surname></persName> ha perso il <num type="percentage" value="24">24%</num> del suo patrimonio con il crollo dei <objectName xml:id="B">Bitcoin</objectName> che lui stesso ha causato.
+                </p> 
+                <p>I suoi post su <orgName>Twitter</orgName>, dall'annuncio che <orgName xml:id="T">Tesla</orgName> non avrebbe più accettato <objectName ref="#B">Bitcoin</objectName> alle conseguenti discussioni, continuano a far precipitare i prezzi delle criptovalute e con esse la sua stessa fortuna.
+                </p>
+                <p>
+                 Come riporta <orgName>Bloomberg</orgName>, lunedì l'amministratore delegato di <orgName ref="#T">Tesla</orgName> e <orgName>Space X</orgName>, per citarne alcune, ha perso il suo posto come seconda persona più ricca del mondo dovendo cedere il passo al presidente di <orgName>LVMH</orgName>(Louis Vuitton e altri marchi del lusso)  <persName><forename> Bernard </forename><surname> Arnault </surname></persName>  dopo che le azioni del produttore di veicoli elettrici sono scese del <num type="percentage" value="2,2">2,2%</num>.
+                </p>
+                <p>
+                Quello di lunedì è stato l'ultimo di una serie di crolli che la scorsa settimana hanno affossato tutti i titoli tecnologici.
+                </p>
+            </div>
+            <div>
+                <p>
+                <title  type="sub">Criptovalute pericolose</title></p>
+                <p>
+                   <surname ref="#EM">Musk</surname>, che ha raggiunto il primo posto nel <foreign xml:lang="en"><objectName>Bloomberg Billionaires Index</objectName></foreign>di marzo, ora ha un patrimonio netto di <measure type="currency">160,6</measure> miliardi di dollari, in calo del <num type="percentage" value="24">24%</num> rispetto al suo massimo di gennaio. 
+                </p>
+                <p>
+                   É un periodo burrascoso per <surname  ref="#EM">Musk</surname>principalmente a causa del fatto che ha fatto precipitare il valore dei <objectName ref="#B">Bitcoin</objectName> del <num type="percentage" value="15">15%</num> la scorsa settimana dopo aver pubblicato un <foreign xml:lang="en"><objectName xml:id="tw">Tweet</objectName></foreign> che annunciava che <orgName ref="#T">Tesla</orgName> non avrebbe più accettato la criptovaluta come pagamento. La ragione addotta dal miliardario sudafricano è di tipo ambientale citando i costi energetici, e quindi di inquinamento, che la blockchain del <objectName ref="#B">Bitcoin</objectName> ha in questo momento.
+                    Molti però, sospettano che la mossa abbia più a che fare con le basse proiezioni di guadagni a lungo termine di <orgName ref="#T">Tesla</orgName>.
+                </p>
+                <p>
+                    In questo vortice di confusione digitale, <surname  ref="#EM">Musk
+                   </surname>ha anche fatto volare alle stelle i prezzi del <objectName xml:id="D">Dogecoin</objectName> (una criptovaluta nata per scherzo ma che ora diventa sempre più redditizia) dopo aver twittato che sta lavorando con gli sviluppatori del <foreign xml:lang="en">token</foreign> a tema <objectName>Shiba Inu</objectName> per migliorare l'efficienza delle transazioni.
+                </p>
+            </div>
+            <div><p>
+                <title  type="sub">Altri guai</title>
+                </p>
+                <p>
+                Durante il fine settimana poi,<surname  ref="#EM">Musk
+                </surname> ha scatenato di nuovo il caos quando sembrava essere sul punto di annunciare che <orgName ref="#T">Tesla</orgName> avrebbe messo in vendita tutti i suoi <objectName ref="#B">Bitcoin</objectName>. Poche ore dopo ha chiarito in un <foreign xml:lang="en"><objectName ref="#tw">tweet</objectName></foreign> che la società non avrebbe fatto nulla del genere.
+                </p>
+                <p>
+               <persName ref="#EM">Elon Musk</persName> è diventato la persona più ricca del mondo dopo che le azioni di Tesla sono aumentate di quasi il <num type="percentage" value="15">750%</num> lo scorso anno grazie a un <foreign xml:lang="en">boom</foreign> di tutti i titoli tecnologici. 
+               </p>
+               <p>
+               Nonostante abbia riportato un utile record nel primo trimestre, le azioni della società di auto elettriche hanno perso circa un quinto del loro valore a causa della carenza globale di semiconduttori e della crescente concorrenza delle case automobilistiche tradizionali.
+                </p>
+                <p>
+                Il patrimonio di <surname ref="#EM">Musk</surname> è sceso di circa <measure type="currency">9,1</measure> miliardi di dollari quest'anno ma una nuova sortita nel mondo delle criptovalute promette di riportarlo in vetta.<surname ref="#EM">Musk</surname> ha appena siglato un accordo con la società canadese <orgName>Geometric Energy Corporation</orgName> per portare nell'orbita della Luna un loro satellite con la sua <objectName>Space x</objectName>. Tutta la missione sarà pagata dalla società canadese in <objectName ref="#D">dogecoin</objectName>, la stessa criptovaluta che <surname ref="#EM">Musk</surname> sta <q>"aiutando a sviluppare"</q>.
+                Sembra inoltre che negli ultimi giorni forti investimenti da parte di speculatori anonimi si siano concentrato proprio sull’acquisto di <objectName ref="#D">Dogecoin</objectName>.
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

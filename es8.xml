@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Studente: Alice Vitali
+-->
+<!DOCTYPE TEI SYSTEM "tei_all.dtd">
+<TEI xmlns="http://www.teic.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Prima pagina di "Chi ti ama così" di Edith Bruck in txt</title>
+                <respStmt>
+                    <resp>Conversione TEI P5 a cura di</resp>
+                    <name>Alice Vitali</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Università di Pisa</publisher>
+                <date>2021-06-09</date>
+                <availability status="restricted">
+                    <p>Riproduzione riservata</p>
+                </availability> 
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title>Chi ti ama così</title>
+                    <publisher>Marsilio Editori</publisher>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <p>
+                Sono nata in un piccolo villaggio ungherese tra la <country key="UA">Ucraina</country> e la  <country key="SK">Slovacchia</country>, di giovedì notte, <date>3 maggio del 1932<date>.<q>Quel giorno pioveva</q>, mi raccontò mia madre e disse che <q>la pioggia porta male</q>, ma a me piace ed è sempre piaciuta. Che piovesse di quella stagione era un caso, e anche la mia nascita perché mia madre non desiderava altri figli: erano già in troppi in quella casetta che stava crollando sotto il peso degli anni. Ma la gente, più povera era più figli aveva, perché soltanto a letto ci si riparava dal freddo nei lunghi mesi invernali.
+                </p>
+                <p>
+                Il paese era già buio nel pomeriggio. Poche lampade a petrolio illuminavano appena le piccole stanze della casa. La nostra casa era composta di due camere e della cucina, con un tetto di canne che lasciava passare qua e là la pioggia. Nella stanza piccola non poteva dormire nessuno perché entrava l’acqua; nell’altra dormivo io, mio <roleName>fratello</roleName><persName><forename>Laci</forename></persName> e mia <roleName>sorella<roleName><persName><forename>Eliz</forename></persName>. Nella cucina dormivano i miei genitori. Il resto della mia famiglia, <persName><forename>Laila</forename></persName>, <persName><forename>Margo</forename></persName> e <persName><forename>Peter</forename></persName> erano a Budapest dove lavoravano in una sartoria.
+                </p>
+                <p>
+                Mio padre, di mestiere macellaio e commerciante, trafficava in tutti i rami senza riuscire a guadagnare il necessario per la famiglia. Stava sempre in viaggio ma raramente tornava a casa coi soldi; era nervoso, magro e triste, pieno di reumatismi e di buchi delle pallottole della guerra del ’14. Non voleva mai andare in sinagoga il che costituiva l’argomento di tutte le discussioni che avvenivano in casa. Non potrei dire che la mia fosse una famiglia tranquilla e felice; la nostra miseria aumentava giorno per giorno e così anche le liti. Per nulla ci si accapigliava. Mia madre aveva trentanove anni ma ne dimostrava molti di più coi suoi pochi denti e con la sua faccia bella ma amara e sofferente. Portava sempre il fazzoletto sulla testa come gli ebrei osservanti e quando non gridava pregava.
+                </p>
+                <p>
+                Io avevo appena sette anni, andavo a scuola ed ero felice perché quello era l’unico rifugio dalle liti familiari. Negli altri giorni, quando non potevo più sopportare nessuno, andavo nel bosco vicino e, distesa nel fango ghiacciato, piangevo per lunghe ore. Quando mi doleva la schiena e avevo fame me ne tornavo a casa dove mia madre mi strofinava le mani e i piedi per riscaldarmi. Molte volte uscivo proprio per questo: quando tornavo, mia madre era affettuosa e con le sue mani grassocce e vellutate mi accarezzava con tenerezza.
+                </p>
+                <p>
+                Nel villaggio abitavano poche famiglie ebree che avevano negozi di merceria o drogheria; gli altri erano quasi tutti contadini protestanti. La domenica mattina si recavano alla messa nell’unica chiesa, nel pomeriggio le donne si raggruppavano davanti alle case e facevano pettegolezzi che mi piaceva ascoltare. Gli uomini andavano all’osteria a bere un bicchierino o a giocare a birilli. Chi sapeva leggere, la domenica comprava un giornale locale che vendeva il postino, e lo leggevano ad alta voce anche per gli altri, oppure parlavano della guerra passata o di quella che si avvicinava sempre più. Eravamo nel 1939. La sera andavano a casa presto, tutto il villaggio dormiva e solo i cani abbaiavano nel buio.
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

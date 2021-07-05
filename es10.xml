@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Studente: Alice Vitali
+ -->
+<!DOCTYPE TEI SYSTEM "tei_all.dtd">
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>  <!-- descrizione bibliografica del digitale -->
+			<titleStmt>   <!-- titolo autori e responsabilità -->
+				<title>Vincenzo Bellini al Conte Carlo Pepoli, Puteaux, 26 giugno 1834</title>
+                <author ref="#VB" role="composer">Vincenzo Bellini</author>
+            </titleStmt>
+            
+            <editionStmt>   <!-- info sull'edizione -->
+                <edition>Edizione digitale
+                    <date when="2020-05"> Maggio 2020 </date>
+                </edition>
+                <respStmt>
+					<resp>Progetto di edizione digitale coordinato da:</resp>
+					<name ref="#AV">Alice Vitali</name>
+				</respStmt>
+                <respStmt>
+                    <resp>Codificato da</resp>
+                    <name ref="#AV">Alice Vitali</name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher></publisher>
+                <availability>
+                    <p>Available under licence only</p>
+                </availability>
+            </publicationStmt>
+            
+            <sourceDesc>    <!-- descrizione bibliografica relativa alle fonti da cui il testo digitale è derivato -->
+				<msDesc>
+                    <msIdentifier>  
+                        <country key="IT">Italia</country>
+                    </msIdentifier>
+                    <msContents>
+                        <!-- contenuto  del manoscritto -->
+						<msItem>
+							<author xml:lang="it" ref="#VB">Vincenzo Bellini</author>
+							<title type="uniform" xml:lang="it">
+								<persName ref="#VB" role="composer">Vincenzo Bellini</persName>								
+								<persName ref="#CP">Carlo Pepoli</persName>,							
+								<date when="1834-06-26">26 giugno 1834</date>
+							</title>
+							<textLang mainLang="it">italiano di inizio Ottocento</textLang>
+						</msItem>
+					</msContents>
+                    <physDesc>  <!-- descrizione del supporto fisico del manoscritto -->
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <material>Carta</material>
+                                </support>
+                                <condition>
+                                    <p>Buone condizioni fisiche.</p> 
+                                </condition>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+
+        <profileDesc>  
+            <correspDesc>   <!-- descrizione azioni legate alla corrispondenza -->
+                <correspAction type="sent">   
+                    <persName ref="#VB" role="composer">Vincenzo Bellini</persName>
+                    <placeName ref="#P" type="postmark">Puteaux</placeName>
+                    <date when="1834-06-26" cert="high" type="writing">26 giugno 1834</date>					
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="#CP"><roleName>conte</roleName>Carlo Pepoli</persName>
+                    <date>unknown</date>
+                </correspAction >
+                <correspContext>    <!-- info su scambi di lettere precedenti o successive -->
+                    <p>Non è presente un contesto di riferimento</p>
+                </correspContext>
+            </correspDesc>
+
+            <textClass>     <!-- natura o argomento del testo -->
+                <keywords>
+                    <term>lettera</term>
+                </keywords>
+            </textClass>
+
+            <langUsage>
+                <language ident="it">Italiano di inizio Ottocento</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body xml:lang="it">
+            <!-- CORPO DELLA LETTERA -->
+            <div xml:id="body_lettera" type="letter-body">
+                <opener>
+                    <lb/>
+                    <gap></gap><date>26</date><pc>:</pc><gap></gap>
+                    <lb />
+                    <hi rend="underline"><placeName xml:lang="FR">de Nevilly</placeName></hi>
+                </opener>
+                <p>
+                    <lb />
+                    Mio caro
+                    <persName ref="#CP"> 
+                         <addName type="alias">Carluccio</addName>
+                     </persName>
+                </p>
+                <p>
+                    <lb />
+                    Avendo preso l'intero duetto
+                </p>
+            </div>
+
+            <!--LISTE-->
+            <div type="lists">
+            <!-- ListPerson -->
+				<listPerson>
+					<head>Lista persone</head>
+
+                    <!-- Vincenzo Bellini -->
+					<person xml:id="VB" sameAs="http://viaf.org/viaf/39560983"> 
+						<persName role="composer" > 
+							<ref target="http://www.treccani.it/enciclopedia/vincenzo-bellini_(Dizionario-Biografico)"/>
+							<forename>Vincenzo</forename>
+							<forename>Salvatore</forename>
+							<forename>Carmelo</forename>
+							<forename>Francesco</forename> 
+							<surname>Bellini</surname>
+							<addName type="alias">Il Cigno</addName>
+							<roleName type="honorific">Cavaliere della Legione d'onore</roleName> 
+						</persName>
+						<sex>M</sex>
+						<birth>
+							<date when="1801-11-03">3 novembre 1801</date>
+							<placeName ref="#CT">
+								<settlement type="municipality">Catania</settlement>
+								<settlement type="provincia" key="CT">Catania</settlement>
+								<country key="IT">Italia</country>
+							</placeName>
+						</birth>
+                        <death>
+							<date when="1835-09-23">23 settembre 1835</date>
+							<placeName ref="#Put">
+								<settlement type="municipality">Puteaux</settlement>
+								<settlement type="department" key="Paris">Paris</settlement>
+								<country key="FR">France</country>
+							</placeName>
+						</death>   
+					</person>
+
+                    <!--Carlo Pepoli -->
+                    <person xml:id="SN"> 
+						<persName> 
+							<forename>Carlo</forename>
+							<surname>Pepoli</surname>
+							<roleName type="honorific">Conte</roleName> 
+						</persName>
+						<sex>M</sex>
+						<birth>
+							<date when="1796-07-22">22 luglio 1796</date>
+							<placeName ref="#BO">
+								<settlement type="municipality">Bologna</settlement>
+								<settlement type="provincia" key="BO">Bologna</settlement>
+								<country key="IT">Italia</country>
+							</placeName>
+						</birth>
+                        <death>
+							<date when="1881-12-07">7 dicembre 1881</date>
+                           <placeName ref="#BO">
+								<settlement type="municipality">Bologna</settlement>
+								<settlement type="provincia" key="BO">Bologna</settlement>
+								<country key="IT">Italia</country>
+							</placeName>
+						</death>
+					</person> 
+
+                    <!-- Alice Vitali -->
+                    <person xml:id="AV"> 
+                        <persName> 
+                            <forename>Alice</forename>
+                            <surname>Vitali</surname>
+                        </persName>
+                        <sex>F</sex>
+                        <birth>
+                            <date when="1999-11-12">12 novemmbre 1999</date>
+                            <placeName>
+                                <settlement type="municipality" key="Bergamo">Bergamo</settlement>
+                                <settlement type="provincia" key="BG">Bergamo</settlement>
+                                <country key="IT">Italia</country>
+                            </placeName>
+                        </birth>
+                    </person>
+                </listPerson>
+
+                <!-- ListPlace -->
+                <listPlace>
+                    <head> Lista dei luoghi </head>
+
+                    <!-- Puteaux -->
+                    <place xml:id="P">
+						<placeName>Puteaux</placeName>
+						<district type="arrondissement">Nanterre</district>
+						<settlement type="city">Paris</settlement>
+						<country key="FR">France</country>
+					</place>
+                </listPlace>
+            </div>
+       </body>
+    </text>                
+</TEI>

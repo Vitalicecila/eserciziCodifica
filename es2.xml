@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<!--
+Studente: Alice Vitali
+ -->
+<TEI>
+	<p>
+		<div>
+	</p>
+	</div>
+</TEI>
+
+<!-- errore: 
+[Fatal Error] es2.xml:8:4: The element type "div" must be terminated by the matching end-tag "</div>".
+
+correzione: 
+<TEI>
+	<p>
+	</p>
+	<div>
+	</div>
+</TEI>
+ -->

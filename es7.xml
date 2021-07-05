@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Studente: Alice Vitali
+ -->
+<!DOCTYPE root [
+<!ELEMENT root (nodo+)>
+<!ELEMENT nodo (#PCDATA|child)*>
+<!ELEMENT child (#PCDATA)>
+] >
+<root>
+    <nodo>
+        text1
+    </nodo>
+     <nodo>
+        <child>text2</child>
+    </nodo>
+</root>
